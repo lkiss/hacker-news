@@ -1,0 +1,17 @@
+.story-item {
+    display: flex;
+    align-items: center;
+    background-color: #efefef;
+    margin: 1em;
+    width: 100%;
+    padding: 0.5em;
+
+    &-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5em;
+        height: 5em;
+        margin: 0 1em 0 1em;
+    }
+}

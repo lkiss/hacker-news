@@ -1,0 +1,16 @@
+.layout {
+    &-router {
+        margin-top: 4em;
+    }
+
+    &-left {
+        display: flex;
+        align-items: center;
+
+        img {
+            border: solid white 1px;
+            width: 1em;
+            height: 1em;
+        }
+    }
+}
