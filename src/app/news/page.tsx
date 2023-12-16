@@ -5,14 +5,13 @@ import { useEffect, useState } from "react";
 import { StoryItem } from "../components/story-item/story-item.component";
 import { GET } from "./api/route";
 
-export default function NewsHomePage() {
+export default function NewsPage() {
     const [storyIds, setStoryIds] = useState<string[]>([]);
 
     useEffect(()=>{
         GET()
         .then<string[]>(result => result.json())
         .then(result => setStoryIds(result))
-        .catch(reason=> console.log(reason));
     }, [])
 
     return (

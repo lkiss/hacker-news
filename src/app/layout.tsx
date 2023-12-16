@@ -19,7 +19,7 @@ export default function RootLayout({children
               <Toolbar sx={{ display: "flex", justifyContent: "space-between" }}>
                 <div className={"layout-left"}>
                   <img src='./favicon.ico' alt='favicon.ico'></img>
-                  <Typography variant="h6" component="div" sx={{ margin: "0 1em 0 1em", flexGrow: 1 }}>
+                  <Typography role={"heading"} variant="h6" component="div" sx={{ margin: "0 1em 0 1em", flexGrow: 1 }}>
                     Hacker News
                   </Typography>
                   <FeedFilter></FeedFilter>
